@@ -13,29 +13,7 @@ Les projets ont été développés en Python, avec l'environnement Anaconda et J
 ### Description de données
 
 Les données contiennent les différents attributs des prospects et les détails de leur interaction avec ExtraaLearn. 
-Le dictionnaire de données détaillé est donné ci-dessous
-
-**Dictionnaire de données**
-* ID: Identifiant du prospect
-* age: Age du prospect
-* current_occupation: Profession actuelle du chef de file. Les valeurs comprennent « Professionnel », “Chômeur” et « Étudiant ».
-* first_interaction: Comment le lead a-t-il interagi pour la première fois avec ExtraaLearn. Les valeurs incluent « Site web », « Application mobile ».
-* profile_completed: Quel pourcentage du profil a été rempli par le prospect sur le site web/l'application mobile. Les valeurs comprennent Faible - (0-50%), Moyen - (50-75%), Élevé (75-100%).
-* website_visits: Combien de fois un client potentiel a-t-il visité le site web ?
-* time_spent_on_website: Temps total passé sur le site web
-* page_views_per_visit: Nombre moyen de pages du site web consultées au cours des visites.
-* last_activity: Dernière interaction entre le responsable et ExtraaLearn.
-    * Email Activity: Demande de détails sur le programme par courrier électronique, le représentant a partagé des informations avec un client potentiel, comme une brochure du programme, etc.
-    * Phone Activity: Conversation téléphonique avec un représentant, conversation par SMS avec un représentant, etc.
-    * Website Activity: Interaction sur le chat en direct avec un représentant, mise à jour du profil sur le site web, etc.
-
-* print_media_type1: Drapeau indiquant si le lead a vu la publicité d'ExtraaLearn dans le journal.
-* print_media_type2: Drapeau indiquant si le lead a vu la publicité d'ExtraaLearn dans le magazine.
-* digital_media: Drapeau indiquant si le lead a vu la publicité d'ExtraaLearn sur les plateformes numériques.
-* educational_channels: Drapeau indiquant si le lead a entendu parler d'ExtraaLearn dans les canaux éducatifs tels que les forums en ligne, les fils de discussion, les sites Web éducatifs, etc.
-* referral: Indicateur indiquant si le responsable a entendu parler d'ExtraaLearn par le biais d'une référence.
-* status: Drapeau indiquant si le lead a été converti en client payant ou non.
-  
+Les données détaillées dans le notebook.   
 - **Techniques utilisées** :
   - Nettoyage des données
   - Exploration de données : Analyse univarible et Bivaribles
@@ -51,21 +29,9 @@ Le dictionnaire de données détaillé est donné ci-dessous
 
 ### TP 2 – Régression Linéaire : Prediction Chiffres d'affaire du supermarché SuperKart
 
-- **Objectif** : l'objectif principal de ce travail, est d'analyser les données de vente du SuperKart qui est une entreprise qui possède une chaîne de supermarchés et de magasins d'alimentation proposant une large gamme                   de produits. afin de prédire le chiffre d'affaires futur de ses différents points de vente, d'établir une stratégie de vente dans les différentes villes et de planifier ses stocks en conséquence.
-- **Données** : Les données contiennent les différents attributs des divers produits et magasins.
-       Le dictionnaire de données détaillé est donné ci-dessous.
-        * Product_Id - l'identifiant unique de chaque produit, chaque identifiant commençant par deux lettres suivies d'un chiffre.
-        * Product_Weight - le poids de chaque produit
-        * Product_Sugar_Content - la teneur en sucre de chaque produit (faible teneur en sucre, ordinaire, sans sucre)
-        * Product_Allocated_Area - le rapport entre la surface d'exposition de chaque produit et la surface d'exposition totale de tous les produits d'un magasin
-        * Product_Type - une grande catégorie pour chaque produit comme la viande, les snacks, les boissons fortes, les produits laitiers, les conserves, les boissons non alcoolisées, la santé et l'hygiène, les produits de boulangerie, le pain, le petit-déjeuner, les produits surgelés, les fruits et légumes, les produits ménagers, les produits de la mer, les féculents, etc.
-        * Product_MRP - le prix de détail maximal de chaque produit
-        * Store_Id - identifiant unique de chaque magasin
-        * Store_Establishment_Year - l'année de création du magasin
-        * Store_Size - la taille du magasin en fonction du nombre de pieds carrés (haut, moyen, bas)
-        * Store_Location_City_Type - Le type de ville dans laquelle le magasin est situé : Tier 1, Tier 2 et Tier 3. Le niveau 1 comprend les villes où le niveau de vie est comparativement plus élevé que dans les niveaux 2 et 3.
-        * Store_Type - Le type de magasin dépend des produits qui y sont vendus, comme les grands magasins, les supermarchés de type 1, les supermarchés de type 2 et les magasins d'alimentation.
-        * Product_Store_Sales_Total - Recettes totales générées par la vente de ce produit particulier dans ce magasin particulier
+- **Objectif** : l'objectif principal de ce travail, est d'analyser les données de vente du SuperKart qui est une entreprise qui possède une chaîne de supermarchés et de magasins d'alimentation proposant une large gamme de produits. afin de prédire le chiffre d'affaires futur de ses différents points de vente, d'établir une stratégie de vente dans les différentes villes et de planifier ses stocks en conséquence.
+Les données détaillées dans le notebook.
+
 - **Techniques utilisées** :
   - Nettoyage des données
   - Exploration de données : Analyse univarible et Bivaribles
